@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# -*- ENCODING: UTF-8 -*-
+
+sudo chown -R alumno *
+mkdir /home/alumno/JClic
+unzip projects.zip
+mv projects /home/alumno/JClic/projects
+mkdir /home/alumno/.tuxpaint
+unzip stamps.zip 
+mv stamps /home/alumno/.tuxpaint/stamps
+unzip starters.zip
+mv starters /home/alumno/.tuxpaint/starters
+unzip fonts.zip
+mv .fonts /home/alumno/.fonts 
+unzip imagen-aula.zip
+sudo mv aulas-libres /usr/share/images/aulas-libres
+echo "Aulas Libres listo - Visita www.aulaslibres.org.ar"
+exit
